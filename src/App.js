@@ -5,7 +5,7 @@ import "./Style.css"
 import "./Fonts.css"
 
 function App () {
-  return (<div className ="container">
+  return (<div className ="container-left">
       
       <section className ="mg-big">
       <h1 className="fs-h1 fw-bold">Style Guide &amp; Components</h1>
@@ -57,7 +57,9 @@ function App () {
       <button className="bt-blue">CSS Download</button>
       
       
-      </div>);
+      </div>
+      <div className ="container-right"></div>
+      );
 }
 
 export default App;
