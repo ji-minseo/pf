@@ -3,26 +3,31 @@ import Axios from "axios";
 import Row from './Row';
 import "./Style.css"
 import "./Fonts.css"
+import NavItem from './NavItem';
 
 function App () {
-  return (<div className ="container-left">
+  return (<div className ="container">
+    <div className ="pannel-left"></div>
       
       <section className ="mg-big">
-      <h1 className="fs-h1 fw-bold">Style Guide &amp; Components</h1>
+      <h1 className="fs-m fw-bold">jimin seo</h1>
+      <h1 className="fs-m fw-bold">republic of korea</h1>
 
-        <h2 className ="fs-h2 fw-bold"><span className="text-primary">CSS Files</span> for<select class ="selected fs-h2 fw-bold"><option selected>Remain</option><option>This Site</option></select>Style Guide &amp; Components</h2>
         
       
       </section>
       <section className="mg-small">
         <ul>
+         <NavItem title ="lany businesscard" link="" classname ="fs-h1 fw-light" />
+         <NavItem title ="axis of horizon" link="" classname ="fs-h1 fw-light" />
 
-          <li className="ff-karla fs-p text-primary fw-light" >Fonts</li>
+
+          {/* <li className="ff-karla fs-p text-primary fw-light" >Fonts</li>
           <li className="ff-karla fs-p text-grey fw-light">Colors</li>
           <li className="ff-karla fs-p text-grey fw-light">Margins</li>
 
           <li className="ff-karla fs-p text-grey fw-light">Components</li>
-
+ */}
 
         </ul>
 
@@ -58,7 +63,6 @@ function App () {
       
       
       </div>
-      <div className ="container-right"></div>
       );
 }
 
