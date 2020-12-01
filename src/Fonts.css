@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@100;200;300;400;700;800&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+body {
+    font-family: "Montserrat", "Nanum Gothic", sans-serif;
+    letter-spacing: -0.015em;
+  }
+
+  .ff-karla {
+    font-family: "Karla", sans-serif;
+    letter-spacing: -0.015em;
+  }
+  
+  /* Font Size */
+  
+  .fs-tiny {
+    font-size: 12px;
+    line-height: 1.3333333333;
+  }
+  
+  .fs-small {
+    font-size: 14px;
+    line-height: 1.4285714286;
+  }
+  
+  .fs-base {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .fs-medium {
+    font-size: 18px;
+    line-height: 1.5555555556;
+  }
+  
+  .fs-large {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  .fs-h2 {
+    font-size: 35px;
+    line-height: 2.7714285714;
+  }
+
+  .fs-h3 {
+    font-size: 24px;
+    line-height: 2.3333333333;
+  }
+  
+  .fs-h1 {
+    font-size: 50px;
+    line-height: 1.62;
+  }
+  
+  /* Font Weight */
+  
+  .fw-light,
+  .fw-300 {
+    font-weight: 300;
+  }
+  
+  .fw-regular,
+  .fw-400 {
+    font-weight: 400;
+  }
+  
+  .fw-medium,
+  .fw-500 {
+    font-weight: 500;
+  }
+  
+  .fw-bold,
+  .fw-700 {
+    font-weight: 700;
+  }
+  
+  /* Color */
+  
+  .text-dark {
+    color: #1f2d3d;
+  }
+  
+  .text-primary {
+    color: #0D45BB;
+  }
+  
+  .text-secondary {
+    color: #F3641D;
+  }
+  
+  .text-tertiary {
+    color: #c0ccda;
+  }
+  .text-grey {
+    color: rgba(0,0,0,0.37);
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .text-success {
+    color: #13ce66;
+  }
+  
+  .text-error {
+    color: #ff5216;
+  }
+  
+  .text-info {
+    color: #009eeb;
+  }

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@100;200;300;400;700;800&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    margin : 0;
+    box-sizing: border-box;
+    /* background-color: bisque; */
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+}
+li {
+    width: 150px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    /* color: #0D45BB; */
+    background: #0D45BB;
+  }
+  
+  ::selection {
+    /* color: #0D45BB; */
+    background: #0D45BB;
+  }
+
+/* section {
+    margin-bottom: 84px;
+} */
+.container {
+    width: 100%;
+    max-width: 736px;
+    margin: 0 auto;
+    padding: 165px 0;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+/*Margins*/
+h1 {
+    margin-bottom: 15px;
+    /* width: 736px; */
+}
+.selected {
+    margin: 0 30px;
+    padding: 0 44px;
+    height: 98px;
+    border-style: none;
+    border-radius: 0;
+    border-bottom: 3px solid #0D45BB;
+}
+
+.mg-big {
+    margin-bottom: 84px;
+}
+.mg-small {
+    margin-bottom: 40px;
+}
+.mg-tiny {
+    margin-bottom: 20px;
+}
+.bt-basic {
+    transition-duration: 0.2s;
+    background-color: #fff;
+    font-family: "Montserrat", "Nanum Gothic", sans-serif;
+    border: 3px solid #000;
+    height: 82px;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bt-blue {
+    background-color: #fff;
+    color : #0D45BB;
+    font-family: "Montserrat", "Nanum Gothic", sans-serif;
+    border: 3px solid #0D45BB;
+    height: 82px;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bt-blue:hover {
+    -webkit-transition: background-color 0.5s, color 0.5s linear;
+    -ms-transition: background-color 0.5s, color 0.5s linear;
+    transition: background-color 0.5s, color 0.5s linear;
+
+    cursor: pointer;
+
+    background-color: #0D45BB;
+    color: #fff;
+    border: 3px solid #0D45BB;
+}

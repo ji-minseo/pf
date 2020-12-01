@@ -1,0 +1,10 @@
+.row {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+.row__title {
+    width: 150px;
+}
