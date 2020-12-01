@@ -2,8 +2,10 @@
 
 * {
     margin : 0;
+    padding: 0;
     box-sizing: border-box;
-    /* background-color: bisque; */
+    background-color: #000;
+    color: #fff;
 }
 
 input:focus,
@@ -16,11 +18,15 @@ button:focus {
 ul {
     list-style-type: none;
     padding: 0;
-    display: flex;
+    /* display: flex; */
 
 }
 li {
     width: 150px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -38,19 +44,31 @@ li {
 } */
 .container {
     width: 100%;
-    max-width: 736px;
+    height: 100%;
+    /* max-width: 736px; */
     margin: 0 auto;
-    padding: 165px 0;
+    /* padding: 80px 40px; */
 }
 .flex {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
+.verticalLine {
+    border-left: 1px solid rgba(255,255,255,.25);
+  }
 
+.pannel-left {
+    max-width: 200px;
+    margin: 80px 24px 80px 40px;
+    text-align: right;
+}
+.pannel-right {
+    margin: 200px 40px;
+}
 
 /*Margins*/
 h1 {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     /* width: 736px; */
 }
 .selected {
@@ -62,6 +80,9 @@ h1 {
     border-bottom: 3px solid #0D45BB;
 }
 
+.mg-nav {
+    margin-bottom: 150px;
+}
 .mg-big {
     margin-bottom: 84px;
 }
