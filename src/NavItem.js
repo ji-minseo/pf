@@ -6,7 +6,7 @@ import "./Row.css";
 function NavItem ({title, link}) {
     return (<li>
         
-        <a href= {link}><p className="ff-castoro fs-base fw-light">{title}</p></a>        
+        <a href= {link}><p className="ff-castoro fs-small fw-light">{title}</p></a>        
         </li>);
 }
 

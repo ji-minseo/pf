@@ -10,8 +10,8 @@ function App () {
     <div className ="pannel-left">
 
        <section className ="mg-nav">
-      <h1 className="fs-medium fw-bold">seo jimin</h1>
-      <h1 className="fs-medium fw-bold">republic of korea</h1>
+      <h1 className="fs-base fw-bold">seo jimin</h1>
+      {/* <h1 className="fs-medium fw-bold">republic of korea</h1> */}
 
         
       
@@ -33,8 +33,8 @@ function App () {
 
       </section>
       <section className="mg-big">
-        <h2 className="fs-medium fw-bold">behance</h2>
-        <h3 className="fs-medium fw-bold">github</h3>
+        <h2 className="fs-base fw-bold">behance</h2>
+        <h3 className="fs-base fw-bold">github</h3>
 
       </section>
     </div>
