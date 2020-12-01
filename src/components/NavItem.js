@@ -1,7 +1,6 @@
 import React from 'react';
 import proptypes from 'prop-types';
 import { render } from '@testing-library/react';
-import "./Row.css";
 
 function NavItem ({title, link}) {
     return (<li>

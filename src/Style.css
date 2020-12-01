@@ -55,6 +55,10 @@ a:link, a:visited {
     display: flex;
     /* align-items: center; */
 }
+.flex-center {
+    display: flex;
+    align-items: center;
+}
 .verticalLine {
     border-left: 1px solid rgba(255,255,255,.25);
   }
@@ -66,6 +70,11 @@ a:link, a:visited {
 }
 .pannel-right {
     margin: 200px 40px;
+}
+
+.oval {
+    background-image: url("/oval.png");
+    width: 300px;
 }
 
 /*Margins*/

@@ -1,9 +1,9 @@
 import React from 'react';
 import Axios from "axios";
-import Row from './Row';
+import { HashRouter, Route } from "react-router-dom";
 import "./Style.css"
 import "./Fonts.css"
-import NavItem from './NavItem';
+import NavItem from './components/NavItem';
 
 function App () {
   return (<div className ="container flex">
@@ -17,17 +17,19 @@ function App () {
       
       </section>
       <section className="mg-nav">
+
+
+      <HashRouter>
+        <Navigation />
+        <Route path="/" exact={true} component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/movie-detail" component={Detail} />
+      </HashRouter>
         <ul>
          <NavItem title ="lany businesscard" link="" classname ="fs-h1 fw-light" />
          <NavItem title ="axis of horizon" link="" classname ="fs-h1 fw-light" />
 
 
-          {/* <li className="ff-karla fs-p text-primary fw-light" >Fonts</li>
-          <li className="ff-karla fs-p text-grey fw-light">Colors</li>
-          <li className="ff-karla fs-p text-grey fw-light">Margins</li>
-
-          <li className="ff-karla fs-p text-grey fw-light">Components</li>
- */}
 
         </ul>
 
@@ -46,6 +48,7 @@ function App () {
       <h1 className="ff-castoro fs-h2">title</h1>
 
       </div>
+      <div className="oval ff-castoro flex-center">go to the site</div>
       
       </div>
       );
