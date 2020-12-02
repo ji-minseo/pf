@@ -32,15 +32,19 @@ li {
 a:link, a:visited {
     text-decoration: none;
 }
+a:hover, a:active {
+    color: yellow;
+    /* text-decoration: line-through; */
+}
 
 ::-moz-selection { /* Code for Firefox */
     /* color: #0D45BB; */
-    background: #0D45BB;
+    background: yellow;
   }
   
   ::selection {
     /* color: #0D45BB; */
-    background: #0D45BB;
+    background: yellow;
   }
 
 /* section {
