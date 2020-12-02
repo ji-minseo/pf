@@ -22,17 +22,6 @@ function App () {
       </section>
       <section className="mg-nav">
         <HashRouter><Navigation/></HashRouter>
-        
-
-
-      
-        {/* <ul>
-         <NavItem title ="lany businesscard" link="" classname ="fs-h1 fw-light" />
-         <NavItem title ="axis of horizon" link="" classname ="fs-h1 fw-light" />
-
-
-
-        </ul> */}
 
       </section>
       <section className="mg-big">
@@ -41,7 +30,7 @@ function App () {
 
       </section>
     </div>
-    <div className="verticalLine"></div>
+    {/* <div className="verticalLine"></div> */}
     <div className ="object"><img src={process.env.PUBLIC_URL + '/apple.png'}/></div>
     <div className ="object"><img src={process.env.PUBLIC_URL + '/lace.png'}/></div>
     <div className ="object"><img src={process.env.PUBLIC_URL + '/egg.png'}/></div>
@@ -52,7 +41,6 @@ function App () {
       
 
       <div className ="pannel-right float-center">
-      <h1 className="ff-castoro fs-h2">title</h1>
       <HashRouter>
       <Route path="/" exact={true} component={Lany} />
         <Route path="/lany" exact={true} component={Lany} />
@@ -63,7 +51,7 @@ function App () {
       </HashRouter>
 
       </div>
-      <div className="oval ff-castoro flex-center">go to the site →</div>
+      {/* <div className="oval ff-castoro flex-center">go to the site →</div> */}
       
       
       </div>

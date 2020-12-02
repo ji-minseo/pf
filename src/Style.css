@@ -65,12 +65,16 @@ a:link, a:visited {
   }
 
 .pannel-left {
-    max-width: 200px;
-    margin: 80px 24px 80px 40px;
+    min-width: 200px;
+    margin: 40px 24px 40px 40px;
     text-align: right;
+    position: fixed;
+    top:0;
+    left: 0;
 }
 .pannel-right {
-    margin: 200px 40px;
+    text-align: center;
+    margin: 100px 40px 100px 240px;
 }
 
 .oval {
