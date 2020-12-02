@@ -116,20 +116,16 @@ a:link, a:visited {
     /* max-width: 1000px; */
     width: 700px;
 }
+.selected p {
+    color: #5391FF;
+}
 
 /*Margins*/
 h1 {
     /* margin-bottom: 15px; */
     /* width: 736px; */
 }
-.selected {
-    margin: 0 30px;
-    padding: 0 44px;
-    height: 98px;
-    border-style: none;
-    border-radius: 0;
-    border-bottom: 3px solid #0D45BB;
-}
+
 
 .mg-nav {
     margin-bottom: 150px;
