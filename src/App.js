@@ -18,14 +18,28 @@ class App extends React.Component {
     let posy = Math.random() * (700 - 50) + 50;
     console.log(posx);
     let temp = document.getElementsByClassName("object");
-    for(let i = 0; i < temp.length; i++) {
-      temp[i].style.left = posx +"px";
-      temp[i].style.top = posy +"px";
-      posx = Math.random() * (700 - 50) + 50;
-      posy = Math.random() * (700 - 50) + 50;
-    }
+    // for(let i = 0; i < temp.length; i++) {
+    //   temp[i].style.left = posx +"px";
+    //   temp[i].style.top = posy +"px";
+    //   posx = Math.random() * (700 - 50) + 50;
+    //   posy = Math.random() * (700 - 50) + 50;
+    // }
+    temp[0].style.left = Math.random() * (400 - 300) + 300 +"px";
+    temp[0].style.top = Math.random() * (100 - 10) + 10 +"px";
+
+    temp[1].style.left = Math.random() * (400 - 200) + 200 +"px";
+    temp[1].style.top = Math.random() * (500 - 300) + 300 +"px";
+
+
+    temp[2].style.left = Math.random() * (200 - 10) + 10 +"px";
+    temp[2].style.top = Math.random() * (200 - 50) + 50 +"px";
+
     temp[3].style.left = Math.random() * (300 - 200) + 200 +"px";
     temp[3].style.top = Math.random() * (100 - 50) + 50 +"px";
+
+    temp[4].style.left = Math.random() * (200 - 50) + 50 +"px";
+    temp[4].style.bottom = Math.random() * (200 - 50) + 50 +"px";
+
 
 
   }
