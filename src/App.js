@@ -1,5 +1,5 @@
 import React from 'react';
-// import Draggable from 'react-draggable';
+import Draggable from 'react-draggable';
 import { HashRouter, Route } from "react-router-dom";
 import "./Style.css"
 import "./Fonts.css"
@@ -17,7 +17,7 @@ class App extends React.Component {
     let posx = Math.random() * (700 - 50) + 50;
     let posy = Math.random() * (700 - 50) + 50;
     console.log(posx);
-    let temp = document.getElementsByClassName("object");
+    let temp = document.getElementsByClassName("drag-wrapper");
     // for(let i = 0; i < temp.length; i++) {
     //   temp[i].style.left = posx +"px";
     //   temp[i].style.top = posy +"px";
@@ -68,12 +68,24 @@ class App extends React.Component {
       </section>
     </div>
     {/* <div className="verticalLine"></div> */}
-    <div className ="object"><img src={process.env.PUBLIC_URL + '/apple.png'}/></div>
-    <div className ="object"><img src={process.env.PUBLIC_URL + '/lace.png'}/></div>
-    <div className ="object"><img src={process.env.PUBLIC_URL + '/egg.png'}/></div>
-    <div className ="object"><img src={process.env.PUBLIC_URL + '/rabbit.png'}/></div>
-    <div className ="object"><img src={process.env.PUBLIC_URL + '/grass.png'}/></div>
-  
+    <Draggable>
+        <div className="drag-wrapper">
+          <div className ="object"><img src={process.env.PUBLIC_URL + '/apple.png'}/></div>
+          </div></Draggable>
+    <Draggable>
+        <div className="drag-wrapper">
+          <div className ="object"><img src={process.env.PUBLIC_URL + '/lace.png'}/></div>
+          </div></Draggable>
+    <Draggable>
+        <div className="drag-wrapper"><div className ="object"><img src={process.env.PUBLIC_URL + '/egg.png'}/></div>
+        </div></Draggable>
+    <Draggable>
+        <div className="drag-wrapper"><div className ="object"><img src={process.env.PUBLIC_URL + '/rabbit.png'}/></div>
+        </div></Draggable>
+    <Draggable>
+        <div className="drag-wrapper"> <div className ="object"><img src={process.env.PUBLIC_URL + '/grass.png'}/></div>
+        </div></Draggable>
+    
       
       
 
