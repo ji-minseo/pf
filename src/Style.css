@@ -57,6 +57,7 @@ a:link, a:visited {
 }
 .flex-center {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .verticalLine {
@@ -73,9 +74,21 @@ a:link, a:visited {
 }
 
 .oval {
-    background-image: url("/oval.png");
-    width: 300px;
+    /* background-image: url("/pf/oval.png");
+    background-size: contain; */
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    border: 1px solid #5391FF;
+    color: #5391FF;
+    border-radius: 50%;
+    text-align: center;
+    bottom:40px;
+    right: 50px;
+    transform: rotate(-8deg);
+
 }
+
 
 /*Margins*/
 h1 {
