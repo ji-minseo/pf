@@ -63,14 +63,14 @@ class App extends React.Component {
 
       </section>
       <section className="mg-big">
-        <a href="https://www.behance.net/jijiminseo" target="_blank"><h3 className="fs-base fw-bold">behance</h3></a>
-        <a href="https://github.com/ji-minseo" target="_blank"><h3 className="fs-base fw-bold">github</h3></a>
-        <a href="https://ji-minseo.github.io/style-guide-components" target="_blank"><h3 className="fs-base fw-bold">guidelines</h3></a>
+        <h3 className="fs-base fw-bold"><a href="https://www.behance.net/jijiminseo" target="_blank">behance</a></h3>
+        <h3 className="fs-base fw-bold"><a href="https://github.com/ji-minseo" target="_blank">github</a></h3>
+        <h3 className="fs-base fw-bold"><a href="https://ji-minseo.github.io/style-guide-components" target="_blank">guidelines</a></h3>
 
 
       </section>
     </div>
-    {/* <div className="verticalLine"></div> */}
+    <div className="verticalLine"></div>
     <Draggable>
         <div className="drag-wrapper">
           <div className ="object"><img src={process.env.PUBLIC_URL + '/apple.png'}/></div>
