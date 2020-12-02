@@ -1,5 +1,5 @@
 import React from 'react';
-import Axios from "axios";
+// import Draggable from 'react-draggable';
 import { HashRouter, Route } from "react-router-dom";
 import "./Style.css"
 import "./Fonts.css"
@@ -27,17 +27,17 @@ class App extends React.Component {
     temp[0].style.left = Math.random() * (400 - 300) + 300 +"px";
     temp[0].style.top = Math.random() * (100 - 10) + 10 +"px";
 
-    temp[1].style.left = Math.random() * (400 - 200) + 200 +"px";
-    temp[1].style.top = Math.random() * (500 - 300) + 300 +"px";
+    temp[1].style.right = Math.random() * (200 - 50) + 50 +"px";
+    temp[1].style.bottom = Math.random() * (200 - 50) + 50 +"px";
 
 
-    temp[2].style.left = Math.random() * (200 - 10) + 10 +"px";
-    temp[2].style.top = Math.random() * (200 - 50) + 50 +"px";
+    temp[2].style.right = Math.random() * (200 - 10) + 10 +"px";
+    temp[2].style.bottom = Math.random() * (200 - 50) + 50 +"px";
 
     temp[3].style.left = Math.random() * (300 - 200) + 200 +"px";
     temp[3].style.top = Math.random() * (100 - 50) + 50 +"px";
 
-    temp[4].style.left = Math.random() * (200 - 50) + 50 +"px";
+    temp[4].style.right = Math.random() * (200 - 50) + 50 +"px";
     temp[4].style.bottom = Math.random() * (200 - 50) + 50 +"px";
 
 
@@ -73,7 +73,7 @@ class App extends React.Component {
     <div className ="object"><img src={process.env.PUBLIC_URL + '/egg.png'}/></div>
     <div className ="object"><img src={process.env.PUBLIC_URL + '/rabbit.png'}/></div>
     <div className ="object"><img src={process.env.PUBLIC_URL + '/grass.png'}/></div>
-
+  
       
       
 
