@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Lany() {
+function About() {
     return <span>HI</span>
 }
 
-export default Lany;
+export default About;
