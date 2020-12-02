@@ -14,10 +14,18 @@ class App extends React.Component {
     this.randomObject();
   }
   randomObject() {
-    var posx = (Math.random()).toFixed();
-    var posy = (Math.random()).toFixed();
-    document.getElementsByClassName("object")[0].positionX = posx;
-    document.getElementsByClassName("object")[0].positionY = posy;
+    let posx = Math.random() * (700 - 50) + 50;
+    let posy = Math.random() * (700 - 50) + 50;
+    console.log(posx);
+    let temp = document.getElementsByClassName("object");
+    for(let i = 0; i < temp.length; i++) {
+      temp[i].style.left = posx +"px";
+      temp[i].style.top = posy +"px";
+      posx = Math.random() * (700 - 50) + 50;
+      posy = Math.random() * (700 - 50) + 50;
+    }
+    // document.getElementsByClassName("object")[0].style.left = posx +"px";
+    // document.getElementsByClassName("object")[0].style.top = posy +"px";
 
 
   }
