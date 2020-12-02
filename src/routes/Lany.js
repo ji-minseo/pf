@@ -4,7 +4,7 @@ import Button from '../components/Button';
 function Lany() {
     return (
         <div className="section-images">
-                <Button link ="$$"></Button>
+                <Button link ="https://www.behance.net/gallery/107915223/LANY-business-card-sticker-pack-concept-design"></Button>
                 <h1 className= "ff-castoro fs-h2 mg-small">lany businesscard design</h1>
                     <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/645799107915223.5fb27dbe758cc.png" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/645799107915223.5fb27dbe758cc.png 600w,https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/645799107915223.5fb27dbe758cc.png 1200w,https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/645799107915223.5fb27dbe758cc.png 1400w,https://mir-s3-cdn-cf.behance.net/project_modules/fs/645799107915223.5fb27dbe758cc.png 1920w,https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/645799107915223.5fb27dbe758cc.png 2800w," sizes="(max-width: 2800px) 100vw, 2800px"/>
                     <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3c586b107915223.5fb4fef073191.gif" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c586b107915223.5fb4fef073191.gif 600w,https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3c586b107915223.5fb4fef073191.gif 757w," sizes="(max-width: 757px) 100vw, 757px"/>

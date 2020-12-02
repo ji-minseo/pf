@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 
 function Button ({link}) {
     return (
-        <a href ={link}><div className="oval ff-castoro flex-center">go to the site →</div></a>
+        <a href ={link} target="_blank"><div className="oval ff-castoro flex-center">go to the site →</div></a>
 
     );
 }
