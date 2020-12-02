@@ -24,8 +24,8 @@ class App extends React.Component {
       posx = Math.random() * (700 - 50) + 50;
       posy = Math.random() * (700 - 50) + 50;
     }
-    // document.getElementsByClassName("object")[0].style.left = posx +"px";
-    // document.getElementsByClassName("object")[0].style.top = posy +"px";
+    temp[3].style.left = Math.random() * (300 - 200) + 200 +"px";
+    temp[3].style.top = Math.random() * (100 - 50) + 50 +"px";
 
 
   }

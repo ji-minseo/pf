@@ -4,8 +4,11 @@
     margin : 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000;
     color: #fff;
+}
+body {
+    background-color: #000;
+
 }
 
 
@@ -100,6 +103,9 @@ a:link, a:visited {
 .object, .object img {
     height: 60px;
     position: fixed;
+}
+.object:hover {
+    cursor: all-scroll;
 }
 .section-images img {
     /* max-width: 1000px; */
