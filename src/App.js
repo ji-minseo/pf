@@ -9,8 +9,23 @@ import Navigation from "./components/Navigation";
 // import {apple} from "/public/apple.png";
 
 
-function App () {
-  return (<div className ="container flex">
+class App extends React.Component {
+  componentDidMount() {
+    this.randomObject();
+  }
+  randomObject() {
+    var posx = (Math.random()).toFixed();
+    var posy = (Math.random()).toFixed();
+    document.getElementsByClassName("object")[0].positionX = posx;
+    document.getElementsByClassName("object")[0].positionY = posy;
+
+
+  }
+
+
+  render () {
+  
+    return(<div className ="container flex">
     <div className ="pannel-left">
 
        <section className ="mg-nav">
@@ -54,8 +69,8 @@ function App () {
       {/* <div className="oval ff-castoro flex-center">go to the site →</div> */}
       
       
-      </div>
-      );
+      </div>)
+  };
 }
 
 export default App;
