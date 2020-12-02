@@ -88,7 +88,19 @@ a:link, a:visited {
     transform: rotate(-8deg);
 
 }
-
+.oval:hover {
+    bottom:45px;
+    right:55px;
+    cursor: pointer;
+}
+.object, .object img {
+    height: 60px;
+    position: fixed;
+}
+.section-images img {
+    /* max-width: 1000px; */
+    width: 700px;
+}
 
 /*Margins*/
 h1 {
