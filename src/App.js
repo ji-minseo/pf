@@ -63,8 +63,10 @@ class App extends React.Component {
 
       </section>
       <section className="mg-big">
-        <h2 className="fs-base fw-bold">behance</h2>
-        <h3 className="fs-base fw-bold">github</h3>
+        <a href="https://www.behance.net/jijiminseo" target="_blank"><h3 className="fs-base fw-bold">behance</h3></a>
+        <a href="https://github.com/ji-minseo" target="_blank"><h3 className="fs-base fw-bold">github</h3></a>
+        <a href="https://ji-minseo.github.io/style-guide-components" target="_blank"><h3 className="fs-base fw-bold">guidelines</h3></a>
+
 
       </section>
     </div>
