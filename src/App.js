@@ -4,6 +4,7 @@ import { HashRouter, Route } from "react-router-dom";
 import "./Style.css"
 import "./Fonts.css"
 import NavItem from './components/NavItem';
+import Home from "./routes/Home";
 import Lany from "./routes/Lany";
 import Axis from "./routes/Axis";
 import Navigation from "./components/Navigation";
@@ -44,6 +45,12 @@ class App extends React.Component {
 
 
   }
+  stickeron() {
+
+  }
+  stickeroff() {
+
+  }
 
 
   render () {
@@ -51,24 +58,11 @@ class App extends React.Component {
     return(<div className ="container flex">
     <div className ="pannel-left">
 
-       <section className ="mg-nav">
-      <h1 className="fs-base fw-bold">seo jimin</h1>
-      {/* <h1 className="fs-medium fw-bold">republic of korea</h1> */}
-
-        
-      
-      </section>
       <section className="mg-nav">
         <HashRouter><Navigation/></HashRouter>
 
       </section>
-      <section className="mg-big">
-        <h3 className="fs-base fw-bold"><a href="https://www.behance.net/jijiminseo" target="_blank">behance</a></h3>
-        <h3 className="fs-base fw-bold"><a href="https://github.com/ji-minseo" target="_blank">github</a></h3>
-        <h3 className="fs-base fw-bold"><a href="https://ji-minseo.github.io/style-guide-components" target="_blank">guidelines</a></h3>
-
-
-      </section>
+      
     </div>
     <div className="verticalLine"></div>
     <Draggable>
@@ -93,8 +87,27 @@ class App extends React.Component {
       
 
       <div className ="pannel-right float-center">
+        <div className= "header-ring flex-center"><marquee behavior="scroll" direction="left" scrollamount="10" className="fs-p">mail  jijiminseo@gmail.com |	behance  @jijiminseo | github  @ji-minseo | &copy; seo jimin, all rights reserved</marquee></div>
+
+      <section className="letter-left mg-big">
+              <h1 className="nav fs-base fw-bold"><a href="/">seo jimin</a></h1>
+
+        <h3 className="nav fs-base fw-bold"><a href="https://www.behance.net/jijiminseo" target="_blank">behance</a></h3>
+
+
+      </section>
+      <section className ="letter-right mg-nav">
+      <h3 className="nav fs-base fw-bold"><a href="https://github.com/ji-minseo" target="_blank">github</a></h3>
+        <h3 className="nav fs-base fw-bold"><a href="https://ji-minseo.github.io/style-guide-components" target="_blank">guidelines</a></h3>
+      {/* <h1 className="fs-medium fw-bold">republic of korea</h1> */}
+
+        
+      
+      </section>
+
+
       <HashRouter>
-      <Route path="/" exact={true} component={Lany} />
+      <Route path="/" exact={true} component={Home} />
         <Route path="/lany" exact={true} component={Lany} />
         <Route path="/axis" exact={true} component={Axis} />
 
