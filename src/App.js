@@ -90,7 +90,7 @@ class App extends React.Component {
         <div className= "header-ring flex-center"><marquee behavior="scroll" direction="left" scrollamount="10" className="fs-p">mail  jijiminseo@gmail.com |	behance  @jijiminseo | github  @ji-minseo | &copy; seo jimin, all rights reserved</marquee></div>
 
       <section className="letter-left mg-big">
-              <h1 className="nav fs-base fw-bold"><a href="/">seo jimin</a></h1>
+              <h1 className="nav fs-base fw-bold"><a href="/pf/">seo jimin</a></h1>
 
         <h3 className="nav fs-base fw-bold"><a href="https://www.behance.net/jijiminseo" target="_blank">behance</a></h3>
 
