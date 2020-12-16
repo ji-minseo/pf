@@ -241,3 +241,17 @@ h1 {
     color: #fff;
     border: 3px solid #0D45BB;
 }
+
+@media (max-width:768px) {
+
+    .thumb-images img {
+        width: 300px;
+        text-align: center;
+    }
+
+    .section-images img {
+        /* max-width: 1000px; */
+        width: 300px;
+        margin-bottom: 100px;
+    }
+}
