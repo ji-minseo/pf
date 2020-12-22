@@ -136,9 +136,14 @@ a:hover, a:active {
 }
 .emojis {
     position: fixed;
-    top: 20px;
+    top: 40px;
     left: 30px;
 }
+.emojis img {
+    width: 100px;
+    transform: rotate(10deg);
+}
+
 
 .nav {
     display: inline-block;
