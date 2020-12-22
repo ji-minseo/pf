@@ -87,8 +87,8 @@ class App extends React.Component {
       
 
       <div className ="pannel-right float-center">
-        <div className= "header-ring flex-center"><marquee behavior="scroll" direction="left" scrollamount="10" className="fs-p">mail  jijiminseo@gmail.com |	behance  @jijiminseo | github  @ji-minseo | &copy; seo jimin, all rights reserved</marquee></div>
-
+        {/* <div className= "header-ring flex-center"><marquee behavior="scroll" direction="left" scrollamount="10" className="fs-p">mail  jijiminseo@gmail.com |	behance  @jijiminseo | github  @ji-minseo | &copy; seo jimin, all rights reserved</marquee></div> */}
+      <div className="emojis fs-h2">👁👏🏼👄</div>
       <section className="letter-left mg-big">
               <h1 className="nav fs-base fw-bold"><a href="/pf/">seo jimin</a></h1>
 
