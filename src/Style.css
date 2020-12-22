@@ -74,12 +74,12 @@ a:hover, a:active {
     align-items: center; */
 }
 .verticalLine {
-    /* border-left: 1px solid rgba(255,255,255,.25); */
-    position: fixed;
-    height: 100vh;
-    top:0;
-    left:264px;
-    z-index: 100;
+    /* border-right: 1px solid rgba(255,255,255,.25); */
+    /* position: fixed; */
+    /* height: 100vh; */
+    /* top:0; */
+    /* left:264px; */
+    /* z-index: 100; */
   }
 
 .pannel-left {
@@ -123,23 +123,23 @@ a:hover, a:active {
     top: 0;
     left: 0;
     width: 100%;
-    height: 35px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    height: 28px;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.8); */
 
-    /* background-color: #2ee765; */
+    background-color: #07FF47;
     
 }
 .header-ring marquee {
     width: 100%;
-    color: white;
+    color: black;
     position: fixed;
     letter-spacing: 0.1rem;
 
 }
 .emojis {
     position: fixed;
-    bottom: 35px;
-    right: 30px;
+    bottom: 0px;
+    left: 30px;
     /* display: none; */
 }
 .emojis img {
@@ -175,7 +175,6 @@ a:hover, a:active {
     display: inline-block;
     vertical-align: bottom;
     padding: 10px;
-    
 }
 /* .thumb-images img:nth-child(odd) {
     text-align: left;
