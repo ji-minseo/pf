@@ -5,6 +5,7 @@ import "./Style.css"
 import "./Fonts.css"
 import NavItem from './components/NavItem';
 import Home from "./routes/Home";
+import Cava from "./routes/Cava";
 import Lany from "./routes/Lany";
 import Axis from "./routes/Axis";
 import Navigation from "./components/Navigation";
@@ -108,8 +109,9 @@ class App extends React.Component {
 
       <HashRouter>
       <Route path="/" exact={true} component={Home} />
-        <Route path="/lany" exact={true} component={Lany} />
-        <Route path="/axis" exact={true} component={Axis} />
+      <Route path="/cava" exact={true} component={Cava} />
+      <Route path="/lany" exact={true} component={Lany} />
+      <Route path="/axis" exact={true} component={Axis} />
 
         {/* <Route path="/about" component={About} />
         <Route path="/movie-detail" component={Detail} /> */}
