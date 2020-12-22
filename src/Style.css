@@ -278,11 +278,13 @@ h1 {
 @media (max-width:768px) {
 
     .thumb-images img {
-        width: 300px;
+        width: 400px;
         text-align: center;
     }
     .thumb-images {
         display: inline-block;
+        width: 400px;
+
     }
 
     .section-images img {
