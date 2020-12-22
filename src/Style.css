@@ -277,6 +277,9 @@ h1 {
 
 @media (max-width:768px) {
 
+    .pannel-right {
+        margin: 150px 0px;
+    }
     .thumb-images img {
         width: 380px;
         text-align: center;
