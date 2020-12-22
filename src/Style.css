@@ -281,10 +281,12 @@ h1 {
         width: 400px;
         text-align: center;
     }
-    .thumb-images {
-        display: inline-block;
+    .thumb-image {
         width: 400px;
 
+    }
+    .thumb-images {
+        display: inline-block;
     }
     .section-images img {
         /* max-width: 1000px; */
