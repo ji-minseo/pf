@@ -278,11 +278,11 @@ h1 {
 @media (max-width:768px) {
 
     .thumb-images img {
-        width: 400px;
+        width: 380px;
         text-align: center;
     }
     .thumb-image {
-        width: 400px;
+        width: 380px;
 
     }
     .thumb-images {
@@ -290,7 +290,7 @@ h1 {
     }
     .section-images img {
         /* max-width: 1000px; */
-        width: 300px;
+        width: 380px;
         margin-bottom: 100px;
     }
 }
