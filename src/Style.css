@@ -140,6 +140,7 @@ a:hover, a:active {
     position: fixed;
     top: 35px;
     left: 30px;
+    display: none;
 }
 .emojis img {
     width: 100px;
