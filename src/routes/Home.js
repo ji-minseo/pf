@@ -4,6 +4,13 @@ import Button from '../components/Button';
 function Home() {
     return (
         <div className="thumb-images">
+
+                <div class="thumb-image">
+                <a href="/pf/#/hince"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/93a2c5110087085.5fe34d7486da9.png" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a2c5110087085.5fe34d7486da9.png 600w, https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/93a2c5110087085.5fe34d7486da9.png 1200w, https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/93a2c5110087085.5fe34d7486da9.png 1400w, https://mir-s3-cdn-cf.behance.net/project_modules/fs/93a2c5110087085.5fe34d7486da9.png 1920w, https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/93a2c5110087085.5fe34d7486da9.png 2800w" sizes="(max-width: 1400px) 100vw, 1400px" alt="" class="ImageElement-image-2K6 ImageElement-blockPointerEvents-ooR"/> </a> 
+
+                    <span className="nametag fs-tiny">hince website redesign</span>
+                 </div>
+                 
                 {/* <Button link ="https://www.behance.net/gallery/107915223/LANY-business-card-sticker-pack-concept-design"></Button> */}
                 <div class="thumb-image">
                 <a href="/pf/#/cava"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4bc652110010685.5fe1ead7bd1d9.png" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/4bc652110010685.5fe1ead7bd1d9.png 600w, https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4bc652110010685.5fe1ead7bd1d9.png 1200w, https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/4bc652110010685.5fe1ead7bd1d9.png 1400w, https://mir-s3-cdn-cf.behance.net/project_modules/fs/4bc652110010685.5fe1ead7bd1d9.png 1920w, https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/4bc652110010685.5fe1ead7bd1d9.png 2800w" sizes="(max-width: 1400px) 100vw, 1400px" alt="" class="ImageElement-image-2K6 ImageElement-blockPointerEvents-ooR"></img>   </a> 
