@@ -6,7 +6,7 @@ function Home() {
         <div className="thumb-images">
 
                 <div class="thumb-image">
-                <a href="/pf/#/lod"><img src="{process.env.PUBLIC_URL + '/lod.png'}"/> </a> 
+                <a href="/pf/#/lod"><img src="{process.env.PUBLIC_URL + '/lod.gif'}"/> </a> 
 
                     <span className="nametag fs-tiny">lod website redesign</span>
                  </div>
