@@ -275,6 +275,21 @@ h1 {
     border: 3px solid #0D45BB;
 }
 
+.seojimin, .seojimin img {
+    position:fixed;
+    bottom:40%;
+    left:40%;
+    z-index: -1;
+    width: 300px;
+}
+
+.seojimin2, .seojimin2 img {
+    position:fixed;
+    bottom:40%;
+    left:40%;
+    width: 300px;
+}
+
 @media (max-width:768px) {
 
     .pannel-right {
@@ -296,4 +311,14 @@ h1 {
         width: 380px;
         margin-bottom: 100px;
     }
+
+    .seojimin, .seojimin img {
+        position:fixed;
+        bottom:40%;
+        left:25%;
+        z-index: -1;
+        width: 200px;
+    }
 }
+
+

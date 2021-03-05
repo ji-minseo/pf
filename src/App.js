@@ -8,6 +8,7 @@ import Home from "./routes/Home";
 import Cava from "./routes/Cava";
 import Lany from "./routes/Lany";
 import Axis from "./routes/Axis";
+import Yes from "./routes/Yes";
 import Navigation from "./components/Navigation";
 // import {apple} from "/public/apple.png";
 
@@ -102,9 +103,19 @@ class App extends React.Component {
         <h3 className="nav fs-base fw-bold"><a href="https://ji-minseo.github.io/style-guide-components" target="_blank">guidelines</a></h3>
       {/* <h1 className="fs-medium fw-bold">republic of korea</h1> */}
 
+
         
       
       </section>
+
+        {/* <div class="seojimin">
+
+        <img src={process.env.PUBLIC_URL + '/seojimin 2.gif'}></img>
+      </div> */}
+{/* <div class="seojimin2">
+
+<img src={process.env.PUBLIC_URL + '/seojimin 2.gif'}></img>
+</div> */}
 
 
       <HashRouter>
@@ -112,6 +123,8 @@ class App extends React.Component {
       <Route path="/cava" exact={true} component={Cava} />
       <Route path="/lany" exact={true} component={Lany} />
       <Route path="/axis" exact={true} component={Axis} />
+      <Route path="/yes" exact={true} component={Yes} />
+
 
         {/* <Route path="/about" component={About} />
         <Route path="/movie-detail" component={Detail} /> */}
